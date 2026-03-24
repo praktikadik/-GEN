@@ -5,9 +5,9 @@ import io
 from datetime import datetime
 
 # --- ΡΥΘΜΙΣΕΙΣ ΣΕΛΙΔΑΣ ---
-st.set_page_config(page_title="ΝΕΑ ΑΔΕΙΑ Online", page_icon="📝")
+st.set_page_config(page_title="ΝΕΑ ΑΔΕΙΑ", page_icon="📝")
 
-st.title("📝 Γεννήτρια Αδειών")
+st.title("📝 Νέα Άδεια")
 st.markdown("Συμπληρώστε τα πεδία παρακάτω για να δημιουργήσετε το έγγραφό σας.")
 
 # --- ΡΥΘΜΙΣΕΙΣ ΑΔΕΙΩΝ ---
