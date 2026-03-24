@@ -23,7 +23,7 @@ def check_password():
     
     # Εδώ ορίζεις τον κωδικό σου (π.χ. 1234)
     if st.button("Είσοδος"):
-        if password == "1234": # <--- ΑΛΛΑΞΕ ΤΟΝ ΚΩΔΙΚΟ ΕΔΩ
+        if password == st.secrets["MY_PASSWORD"]: # <--- ΑΛΛΑΞΕ ΤΟΝ ΚΩΔΙΚΟ ΕΔΩ
             st.session_state["password_correct"] = True
             st.rerun()
         else:
